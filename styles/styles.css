@@ -3,10 +3,11 @@
     padding: 0px;
 }
 
-header > h1{
+
+ h1{
 font-size: 17px;
 color: #5863E3;
-margin-left: 36.25rem;
+margin-left: 9rem;
 margin-top: 3.563rem;
 
 }
@@ -19,12 +20,12 @@ form > fieldset{
 legend{
     font-size: 49px;
     width: 370px;
-    margin-left: 36.25rem;
+    margin-left: 9rem;
      
 }
 
 textarea{
-    margin-left: 36.25rem;
+    margin-left: 9rem;
     margin-top: 3.563rem;
     height:18.625rem;
     width: 47.25rem;
@@ -73,11 +74,12 @@ border: 1px solid grey;
 .icons{
     
     display: flex;
-    width: 100%;
+    width: 1220px;
     margin-top: 3.188rem;
-    height: 500px;
+    margin-left: 9em;
+     height: 8em;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 
 }
@@ -87,7 +89,8 @@ border: 1px solid grey;
     flex-direction: column;
     align-items: center;
     width:14.125rem;
-    height: 5rem;
+    height: 8rem;
+    
 }
 
 #icon2{
@@ -95,7 +98,7 @@ border: 1px solid grey;
     flex-direction: column;
     align-items: center;
     width:14.125rem;
-    height: 5rem;
+    height: 8rem;
 }
 
 #icon3{
@@ -104,6 +107,7 @@ border: 1px solid grey;
     align-items: center;
     width:14.125rem;
     height: 5rem;
+    margin-right: 8em;
 }
 
 .grey{
@@ -117,15 +121,31 @@ color:#99999A;
 
 #icon1 > i{
     font-size: 40px;
+    color: #232966da;
+    border-radius: 100%;
+    background-color: #5863E3;
+    padding: 5px;
+    margin-bottom: 1rem;
 }
 
 #icon2 > i{
     font-size: 40px;
+    color: #232966da;
+    border-radius: 100%;
+    background-color: #5863E3;
+    padding: 3px 10px;
+    margin-bottom: 1rem;
 }
 
 
     #icon3 > i{
         font-size: 40px;
+        color: #232966da;
+        border-radius: 100%;
+        background-color: #5863E3;
+        padding: 3px 10px;
+        margin-bottom: 1rem;
+
     }
     
 
@@ -139,3 +159,37 @@ color: #4E4D54;
 }
 
 
+#see{
+    font-size: 49px;
+    width: 500px;
+    margin-left: 9rem;
+}
+
+#img{
+    width:70%;
+    height: 24em;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 53px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.image{
+    width:23.313em;
+    height:23.313em;
+}
+
+
+
+
+.inf1{
+    width:100%;
+    height: 23.25rem;
+    background-color: black;
+}
+
+footer{
+    display: flex;
+}
