@@ -305,7 +305,8 @@ footer{
 
 @media only screen and (max-width: 1315px) {
     footer{
-        width: 100vw;
+        width: 267vw;
+        height: 46vh;
     }
   }
 
