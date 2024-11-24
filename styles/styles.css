@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header > h1{
+font-size: 17px;
+color: #5863E3;
+margin-left: 36.25rem;
+margin-top: 3.563rem;
+
+}
+
+
+form > fieldset{
+    border: none;
+}
+
+legend{
+    font-size: 49px;
+    width: 370px;
+    margin-left: 36.25rem;
+     
+}
+
+textarea{
+    margin-left: 36.25rem;
+    margin-top: 3.563rem;
+    height:18.625rem;
+    width: 47.25rem;
+
+}
+
+textarea > p {
+    color: grey;
+    font-size: 14px;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    width: 23.125em;
+    gap: 20px;
+    margin-top: 3.563rem;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    gap: 1.25rem;
+    
+}
+
+#contact > input{
+width: 23.125rem;
+padding: 1.188rem;
+border: 1px solid grey;
+}
+
+
+#contact > button{
+    margin-top: 0.875rem;
+    width: 25.813rem;
+    text-align: center;
+    padding: 1.375rem 10.5rem;
+    background-color: #5863E3;
+    color: white;
+    border: 1px solid grey;
+
+}
+
+.icons{
+    
+    display: flex;
+    width: 100%;
+    margin-top: 3.188rem;
+    height: 500px;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+#icon1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:14.125rem;
+    height: 5rem;
+}
+
+#icon2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:14.125rem;
+    height: 5rem;
+}
+
+#icon3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:14.125rem;
+    height: 5rem;
+}
+
+.grey{
+
+font-size: 15px;
+font-weight: 700;
+color:#99999A;
+
+
+}
+
+#icon1 > i{
+    font-size: 40px;
+}
+
+#icon2 > i{
+    font-size: 40px;
+}
+
+
+    #icon3 > i{
+        font-size: 40px;
+    }
+    
+
+
+h2{
+    font-family: Helvetica;
+font-size: 20px;
+font-weight: 700;
+color: #4E4D54;
+
+}
+
+
